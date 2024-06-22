@@ -1,45 +1,94 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            MY ACCOUNT
-        </title>
-        <meta charset="UTF-8">
-        <meta name = "viewport" content = "width=device-width,initial-scale = 1">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-         <style>
+<head>
+    <title>MY ACCOUNT</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
         body {
             background-image: url('https://github.com/kyaminipriya9/My-Page/blob/main/Social%20Media.jpg?raw=true');
-            background-size: cover; /* Adjusts the background image size */
-            background-position: center; /* Centers the background image */
-            font-family: Arial, sans-serif; /* Optional: Sets the font family for the entire page */
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
         }
-        </style>     
-    </head>
-    <body>
-        <h1><center>Social Media</center></h1>
-        <p><center>I am K.Yamini Priya, pursuing B.Tech in Mathematics and Computing at IIT Goa.</center></p>
-        <center>
-                <h2>Github</h2> 
-                <a href="https://github.com/kyaminipriya9" target="_blank">
-                    <i style="font-size:48px" class="fa fa-github"></i>
-                </a>
-            </div>
-
+        
+        .button {
+            background-color: #42256f; 
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px 0;
+            cursor: pointer;
+            border-radius: 25px;
+            width: 150px;
+        }
+        
+        .social-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        .social-container i {
+            font-size: 48px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+        
+        .social-container a {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1><center>Social Media</center></h1>
+    <p><center><b>Myself K.Yamini Priya, pursuing B.Tech in Mathematics and Computing at IIT Goa.</b>
+    </center></p>
+    <center>
+        <div class="social-container">
+            <h2>Github</h2>
+            <a href="https://github.com/kyaminipriya9" target="_blank">
+                <i class="fa fa-github"></i>
+            </a>
+            <a href="https://github.com/kyaminipriya9" target="_blank">
+                <button class="button">Github</button>
+            </a>
+        </div>
+        
+        <div class="social-container">
             <h2>LinkedIn</h2>
             <a href="https://www.linkedin.com/in/k-yamini-priya-404b76259" target="_blank">
-                <i style="font-size:48px" class="fa fa-linkedin"></i>
+                <i class="fa fa-linkedin"></i>
             </a>
-
+            <a href="https://www.linkedin.com/in/k-yamini-priya-404b76259" target="_blank">
+                <button class="button">LinkedIn</button>
+            </a>
+        </div>
+        
+        <div class="social-container">
             <h2>Instagram</h2>
             <a href="https://www.instagram.com/k_yaminipriya_" target="_blank">
-                <i style="font-size:48px" class="fa fa-instagram"></i>
+                <i class="fa fa-instagram"></i>
             </a>
-
+            <a href="https://www.instagram.com/k_yaminipriya_" target="_blank">
+                <button class="button">Instagram</button>
+            </a>
+        </div>
+        
+        <div class="social-container">
             <h2>LeetCode</h2>
             <a href="https://leetcode.com/kyaminipriya" target="_blank">
-                <i style="font-size:48px" class="fa fa-code"></i>
+                <i class="fa fa-code"></i>
             </a>
-        </center>
-    </body>
-</html>    
+            <a href="https://leetcode.com/kyaminipriya" target="_blank">
+                <button class="button">LeetCode</button>
+            </a>
+        </div>
+    </center>
+</body>
+</html>
+
